@@ -8,8 +8,8 @@ def connect_to_database():
         host="127.0.0.1",
         port=5432,
         user="postgres",
-        password="73121490",
-        database="Maestria"
+        password="PASSWORD",
+        database="NAME_DB"
     )
 
 # Suscripción MQTT

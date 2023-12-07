@@ -36,7 +36,7 @@ def conexionRed(ssid="red", password="123456789"): #Define por defecto (red y 12
         sta_if.active(False)
         ap_if = network.WLAN(network.AP_IF) # Genera un acccess point
         ap_if.active(True)
-        ap_if.config(ssid="ANA", authmode=2, password="123456789") #authmode: 0 abierta, 1 web, 2 wpk pca, 3 wp. PAra ocultar Red: hidden = True
+        ap_if.config(ssid="NAME", authmode=2, password="123456789") #authmode: 0 abierta, 1 web, 2 wpk pca, 3 wp. PAra ocultar Red: hidden = True
         print(f'Lanzando Red, parametros del ESP {ap_if.ifconfig()}')
         # Generación de un socket
         tcp_socket = usocket.socket(usocket.AF_INET, usocket.SOCK_STREAM)
