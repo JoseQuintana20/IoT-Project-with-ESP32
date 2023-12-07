@@ -2,7 +2,7 @@
 IoT Project with ESP32: LED Control, MQTT, Node-RED, Telegram, and PostgreSQL Integration.
 
 
-## Imágenes y Videos
+## Video
 
 Aquí hay una vista previa del video del proyecto:
 
